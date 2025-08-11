@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -f docker/Dockerfile -t finrlmeta .
+docker build -f docker/Dockerfile --network=host -t finrlmeta .
